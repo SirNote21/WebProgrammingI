@@ -1,101 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Event Page</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header, footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
-        header h1, footer p {
-            margin: 0;
-        }
-        header nav a {
-            color: #ffd700;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        header nav a:hover {
-            color: white;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        main {
-            padding: 20px 0;
-            background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .event-details {
-            margin: 20px 0;
-        }
-        .event-details h2 {
-            color: #333;
-            border-bottom: 2px solid #ffd700;
-            padding-bottom: 10px;
-        }
-        .event-details h3 {
-            color: #666;
-        }
-        .event-details p {
-            line-height: 1.6;
-        }
-        .event-details a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .event-details a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>College Annual Fest 2024</h1>
-            <nav>
-                <a href="#home">Home</a> | 
-                <a href="#events">Events</a> | 
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
-    </header>
-
-    <main class="container">
-        <section class="event-details">
-            <h2>Welcome to the Annual College Fest 2024</h2>
-            <hr>
-            <p>Join us for a series of exciting events, workshops, and competitions. Our annual fest is a platform for students to showcase their talents and skills in various domains.</p>
-            <br>
-            <h3>Event Highlights:</h3>
-            <p>- Tech Talks by Industry Experts</p>
-            <p>- Coding Competitions</p>
-            <p>- Cultural Programs and Performances</p>
-            <p>- Sports Activities</p>
-            <br>
-            <h3>Registration:</h3>
-            <p>To participate, <a href="#register">click here</a> to register. Ensure you register by July 15th, 2024.</p>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>Contact us: collegefest@example.com | Phone: (123) 456-7890</p>
-        </div>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Artisan Jewelry Shop</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            h1 {
+                color: #4a4a4a;
+                text-align: center;
+            }
+            .product-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 20px;
+            }
+            .product-item {
+                border: 1px solid #ddd;
+                padding: 10px;
+                text-align: center;
+            }
+            .product-item img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Artisan Jewelry Shop</h1>
+        </header>
+        <main>
+            <section class="product-grid">
+                <article class="product-item">
+                    <h2>Silver Leaf Pendant</h2>
+                    <a href="productpage.html">
+                        <img src="pendant.jpg" alt="Silver Leaf Pendant">
+                    </a>
+                    <p>Price: $45.99</p>
+                </article>
+                <article class="product-item">
+                    <h2>Bohemian Dreamcatcher Earrings</h2>
+                    <a href="productpage.html">
+                        <img src="pendant.jpg" alt="Bohemian Dreamcatcher Earrings">
+                    </a>
+                    <p>Price: $32.50</p>
+                </article>
+                <article class="product-item">
+                    <h2>Copper Wire Wrapped Ring</h2>
+                    <a href="productpage.html">
+                        <img src="pendant.jpg" alt="Copper Wire Wrapped Ring">
+                    </a>
+                    <p>Price: $28.75</p>
+                </article>
+                <article class="product-item">
+                    <h2>Turquoise Beaded Bracelet</h2>
+                    <a href="productpage.html">
+                        <img src="pendant.jpg" alt="Turquoise Beaded Bracelet">
+                    </a>
+                    <p>Price: $39.99</p>
+                </article>
+                <article class="product-item">
+                    <h2>Wooden Mandala Necklace</h2>
+                    <a href="productpage.html">
+                        <img src="pendant.jpg" alt="Wooden Mandala Necklace">
+                    </a>
+                    <p>Price: $52.25</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Artisan Jewelry Shop. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
+
+
