@@ -1,0 +1,62 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #003366;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #f4f4f4;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 2rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Citation styles */
+  .citation {
+    font-style: italic;
+    margin-top: 2rem;
+  }
